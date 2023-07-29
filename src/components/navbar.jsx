@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className='fixed w-full h-24 flex justify-between items-center px-4 py-0 bg-slate-200  text-black text-2xl'>
         <div className='flex ml-5 place-items-end'>
           <button className='font-poppins font-extrabold'>CK</button>
-          <BsCircleFill style={{ color: 'black' }} size='10px' className='animate-bounce ' />
+          <BsCircleFill style={{ color: 'black' }} size='20px' className='animate-bounce ' />
         </div>
         <ul className='hidden md:flex gap-x-10 mr-10 dynamic'>
         <li className='group relative cursor-pointer'>

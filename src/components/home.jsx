@@ -15,8 +15,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='hidden md:flex w-full text-5xl  px-80'>
-        <div className='absolute  top-56 '>
+      <div className='hidden md:flex '>
+        <div className='absolute w-full text-5xl text-center  px-10 top-56 '>
           <h1 className='text-zinc-500 font-serif text-5xl animate-pulse'>Hello, I am</h1>
           <h1 className='text-slate-950 font-poppins text-7xl'>KEERTHI PRASHANTH C</h1>
           <h1 className='text-zinc-500 font-serif animate-pulse text-xl'>I'm a Full Stack Web Developer,</h1>

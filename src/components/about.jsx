@@ -9,14 +9,26 @@ const About = () => {
           <h1 className='text-zinc-500 font-serif animate-pulse text-xl'>I am seeking a competitive and challenging environment where I can serve your organization and establish a career for myself.</h1>
           <h1 className='text-zinc-500 font-serif animate-pulse text-xl'> With a considerable track record of successfully collaborating on diverse projects and participating in challenging competitions,</h1>
           <h1 className='text-zinc-500 font-serif animate-pulse text-xl'> I have developed a strong aptitude for thriving in high-pressure environments.</h1>
+          <div>
+          <h1 className='text-slate-950 font-poppins text-3xl '>Education</h1>
+          <h1 className='text-zinc-500 font-serif animate-pulse text-xl'>I am seeking a competitive and challenging environment where I can serve your organization and establish a career for myself.</h1>
+          <h1 className='text-zinc-500 font-serif animate-pulse text-xl'> With a considerable track record of successfully collaborating on diverse projects and participating in challenging competitions,</h1>
+          <h1 className='text-zinc-500 font-serif animate-pulse text-xl'> I have developed a strong aptitude for thriving in high-pressure environments.</h1>
+        </div>
         </div>
       </div>
       <div className='hidden md:flex'>
-        <div className='absolute  top-[700px]  w-full text-5xl  px-80'>
+        <div className='absolute  top-[700px]  w-full text-5xl text-center px-10  py-20 justify-center'>
           <h1 className='text-slate-950 font-poppins text-7xl '>About Me</h1>
           <h1 className='text-zinc-500 font-serif animate-pulse text-xl'>I am seeking a competitive and challenging environment where I can serve your organization and establish a career for myself.</h1>
           <h1 className='text-zinc-500 font-serif animate-pulse text-xl'> With a considerable track record of successfully collaborating on diverse projects and participating in challenging competitions,</h1>
           <h1 className='text-zinc-500 font-serif animate-pulse text-xl'> I have developed a strong aptitude for thriving in high-pressure environments.</h1>
+          <div>
+          <h1 className='text-slate-950 font-poppins text-7xl '>Education</h1>
+          <h1 className='text-zinc-500 font-serif animate-pulse text-xl'>I am seeking a competitive and challenging environment where I can serve your organization and establish a career for myself.</h1>
+          <h1 className='text-zinc-500 font-serif animate-pulse text-xl'> With a considerable track record of successfully collaborating on diverse projects and participating in challenging competitions,</h1>
+          <h1 className='text-zinc-500 font-serif animate-pulse text-xl'> I have developed a strong aptitude for thriving in high-pressure environments.</h1>
+        </div>
         </div>
       </div>
     </div>
