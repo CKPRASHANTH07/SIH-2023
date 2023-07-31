@@ -16,32 +16,32 @@ const Navbar = () => {
         </div>
         <ul className='hidden md:flex gap-x-10 mr-10 dynamic'>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Home</span>
+        <a href="/" class='hover:text-red-400 font-poppins text-lg'>Home</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>About</span>
+        <a href="/about" class='hover:text-red-400 font-poppins text-lg'>About</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Skills</span>
+        <a class='hover:text-red-400 font-poppins text-lg'>Skills</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Interns</span>
+        <a class='hover:text-red-400 font-poppins text-lg'>Projects</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Certificates</span>
+        <a class='hover:text-red-400 font-poppins text-lg'>Interns</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Projects</span>
+        <a class='hover:text-red-400 font-poppins text-lg'>Certificates</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
@@ -55,32 +55,32 @@ const Navbar = () => {
             <div className='fixed top-20 right-0 w-56 h-64 rounded-xl bg-slate-200  flex flex-col justify-center items-center'>
               <ul>
               <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Home</span>
+        <a href="/" class='hover:text-red-400 font-poppins text-lg'>Home</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>About</span>
+        <a href="/about" className='hover:text-red-400 font-poppins text-lg'>About</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Skills</span>
+        <a class='hover:text-red-400 font-poppins text-lg'>Skills</a>
+        <span  class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
+        </span>
+        </li>
+        <li className='group relative cursor-pointer'>
+        <a class='hover:text-red-400 font-poppins text-lg'>Projects</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Interns</span>
+        <a class='hover:text-red-400 font-poppins text-lg'>Interns</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Certificates</span>
-        <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
-        </span>
-        </li>
-        <li className='group relative cursor-pointer'>
-        <span class='hover:text-red-400 font-poppins text-lg'>Projects</span>
+        <a class='hover:text-red-400 font-poppins text-lg'>Certificates</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
