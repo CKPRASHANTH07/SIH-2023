@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className='relative z-0'>
-       <div className='flex md:hidden '>
+       <div className=' md:hidden '>
         <div className='absolute left-5 top-96 bottom-10 '>
           <h1 className='text-slate-950 font-poppins text-3xl '>About Me</h1>
           <div className='py-10'>
@@ -13,27 +13,34 @@ const About = () => {
           </div>
           <div className='py-20'>
           <div className='text-slate-950 font-poppins text-3xl '>Education
-          <div className='pt-24 text-2xl px-5 py-5 justify-center '>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-6 py-10 hover:animate-pulse' href="">
+          <div className='pt-24 text-2xl px-5 py-5 flex flex-col  justify-center '>
+              <button className='shadow-2xl shadow-slate-200 rounded-xl px-6 py-10 hover:animate-pulse hover:scale-110' href="">
               College
+              <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Sri Eshwar College  </h1>
               <h1>of Engineering</h1>
               <h1>Kinathukadavu,Coimbatore </h1>
               <h1 >CGPA:7.1 </h1>
+              </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse' href="">
+              
+              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
               12th
+              <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Nachiar Vidhyalayam Matric </h1>
               <h1>Hr Sec School</h1>
               <h1>Zamin Uthukuli,Pollachi </h1>
               <h1 >83% </h1>
+              </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-9 py-10 hover:animate-pulse' href="">
+              <button className='shadow-2xl shadow-slate-200 rounded-xl px-9 py-10 hover:animate-pulse hover:scale-110' href="">
               10th
+              <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Bharathi Vidhya Mandhir  </h1>
               <h1>Hr Sec School</h1>
               <h1>Mahalingapuram,Pollachi</h1>
               <h1 >80% </h1>
+              </div>
               </button>
               </div>
           
@@ -52,29 +59,39 @@ const About = () => {
           <div className='py-20 '>
           <div className='text-slate-950  font-poppins text-7xl '>
             Education
-            <div className='pt-24 text-2xl justify-center '>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse' href="">
+            <div className='pt-24 text-xl justify-center '>
+              <div className='space-x-20 space-y-10'>
+              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
               College
+              <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Sri Eshwar College  </h1>
               <h1>of Engineering</h1>
               <h1>Kinathukadavu,Coimbatore </h1>
               <h1 >CGPA:7.1 </h1>
+              </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse' href="">
+              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
               12th
+              <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Nachiar Vidhyalayam Matric </h1>
               <h1>Hr Sec School</h1>
               <h1>Zamin Uthukuli,Pollachi </h1>
               <h1 >83% </h1>
+              </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse' href="">
+              </div>
+                     
+                     <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110 ' href="">
               10th
+              <div className=' text-zinc-500 font-serif text-xl'> 
               <h1 className='mt-10'>Bharathi Vidhya Mandhir  </h1>
               <h1>Hr Sec School</h1>
               <h1>Mahalingapuram,Pollachi</h1>
               <h1 >80% </h1>
+              </div>
               </button>
-            </div>
+           
+          </div>
           </div>
 
 

@@ -1,4 +1,3 @@
-// Home.js
 
 import React from 'react';
 
@@ -8,7 +7,7 @@ const Home = () => {
       <div className='flex md:hidden '>
         <div className='absolute left-5 top-[110px] '>
           <h1 className='text-zinc-500 font-serif text-xl '>Hello, I am</h1>
-          <h1 className='text-slate-950 font-poppins text-3xl '>KEERTHI-- PRASHANTH C</h1>
+          <h1 className='text-slate-950 font-poppins text-3xl '>KEERTHI PRASHANTH C</h1>
           <div className='py-10'>
           <h1 className='text-zinc-500 font-serif text-xl'>I'm a Full Stack Web Developer,</h1>
           <h1 className='text-zinc-500 font-serif text-xl'>ECE Student,</h1>

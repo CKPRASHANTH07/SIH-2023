@@ -21,7 +21,12 @@ const Navbar = () => {
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <a href="/about" class='hover:text-red-400 font-poppins text-lg'>About</a>
+        <a href="/" class='hover:text-red-400 font-poppins text-lg'>About</a>
+        <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
+        </span>
+        </li>
+        <li className='group relative cursor-pointer'>
+        <a  href="/" class='hover:text-red-400 font-poppins text-lg'>Projects</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
@@ -31,12 +36,8 @@ const Navbar = () => {
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <a class='hover:text-red-400 font-poppins text-lg'>Projects</a>
-        <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
-        </span>
-        </li>
-        <li className='group relative cursor-pointer'>
         <a class='hover:text-red-400 font-poppins text-lg'>Interns</a>
+
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
@@ -65,12 +66,12 @@ const Navbar = () => {
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <a class='hover:text-red-400 font-poppins text-lg'>Skills</a>
+        <a class='hover:text-red-400 font-poppins text-lg'>Projects</a>
         <span  class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>
         <li className='group relative cursor-pointer'>
-        <a class='hover:text-red-400 font-poppins text-lg'>Projects</a>
+        <a class='hover:text-red-400 font-poppins text-lg'>Skills</a>
         <span class='absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100'>
         </span>
         </li>

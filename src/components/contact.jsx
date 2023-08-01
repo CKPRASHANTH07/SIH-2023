@@ -11,7 +11,7 @@ import { HiMail } from 'react-icons/hi';
 const Contact = () => {
   return (
     <div className='fixed bottom-0 left-0 w-fit  rounded-2xl  justify-center bg-slate-200  shadow-2xl '>
-      <div className='container w-full max-w-screen-sm px-4 '>
+      <div className='container w-full max-w-screen-sm px-4 hover:scale-110'>
         <ul className=' flex  space-x-5 '>
           <li className='text-black'>
             <a className='hover:text-blue-300' href="https://www.linkedin.com/in/keerthiprashanth-c-650717254"><FaLinkedin/></a>
