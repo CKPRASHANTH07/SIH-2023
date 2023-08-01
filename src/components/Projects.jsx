@@ -64,7 +64,7 @@ Incorporated various features, including health tips, beauty routines, lifestyle
     </div>
 
     <div className='flex md:hidden'>
-    <div className='absolute  top-[1700px]  w-full  text-left  font-poppins  justify-center py-20 '>
+    <div className='absolute  top-[1800px]  w-full  text-left  font-poppins  justify-center py-20 '>
       <h1 className='text-slate-950 font-poppins text-3xl '>Projects</h1>
       <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black text-left font-poppins  ' href="">
       <h1 className='text-black font-poppins text-2xl'>WELLNESS- INSTINCTS</h1>
