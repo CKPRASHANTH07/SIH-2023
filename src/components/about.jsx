@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div className='py-20'>
           <div className='text-slate-950 font-poppins text-3xl '>Education
-          <div className='pt-24 text-2xl px-5 py-5 flex flex-col  justify-center '>
+          <div className='pt-10 text-2xl px-5 py-5 flex flex-col  justify-center '>
               <button className='shadow-2xl shadow-slate-200 rounded-xl px-6 py-10 hover:animate-pulse hover:scale-110' href="">
               College
               <div className='text-zinc-500 font-serif text-xl'>
@@ -59,7 +59,7 @@ const About = () => {
           <div className='py-20 '>
           <div className='text-slate-950  font-poppins text-7xl '>
             Education
-            <div className='pt-24 text-xl justify-center '>
+            <div className='pt-15 text-xl justify-center '>
               <div className='space-x-20 space-y-10'>
               <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
               College
