@@ -5,9 +5,10 @@ const Projects = () => {
     <div className='relative z-0'>
       <div className='hidden md:flex'>
     <div className='absolute  top-[1900px]  w-full  text-center  font-poppins  justify-center  '>
-      <h1 className='text-7xl text-bold ' >Projects</h1>
-      <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black font-poppins hover:scale-110 ' href="">
-      <h1 className='text-black font-poppins text-2xl'>WELLNESS- INSTINCTS</h1>
+      <h1 className='text-7xl text-bold py-5' >Projects</h1>
+      <div className='flex flex-row overflow-y-auto space-x-10 py-20'>
+      <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black font-poppins ' href="">
+      <h1 className='text-black font-poppins text-3xl'>WELLNESS- INSTINCTS</h1>
               <div className=' text-zinc-500 font-serif text-xl w-[700px]'> 
               <h1 className='mt-10 py-10'>mental health care website with chatbot and minigames PARTICIPATED IN NATIONAL LEVEL HACKATHON @MUMBAI  </h1>
               <h1 className='font-poppins py-10'>Healthcare Web App - 36-Hour Hackathon</h1>
@@ -18,10 +19,10 @@ Leveraged Flask, a Python-based web framework, for the back-end development, ena
  </h1>
               </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black font-poppins hover:scale-110 ' href="">
-      <h1 className='text-black font-poppins text-2xl'>HOME-SERVICES</h1>
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black font-poppins  ' href="">
+      <h1 className='text-black font-poppins pb-14 text-3xl'>HOME-SERVICES</h1>
               <div className=' text-zinc-500 font-serif text-xl w-[700px]'> 
-              <h1 className='font-poppins py-10'>WEB APP  BUILT USING PHP,MYSQL,CSS,XAMPP (mini project)
+              <h1 className='font-poppins py-20'>WEB APP  BUILT USING PHP,MYSQL,CSS,XAMPP (mini project)
 </h1>
               <h1 className=' py-10'>Developed a web application for home services using PHP, MySQL, and XAMPP.
 Collaborated with a team to design and implement features including service listing, booking, and payment integration.
@@ -32,8 +33,8 @@ Accessed local development environment using XAMPP for seamless testing and debu
  </h1>
               </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black font-poppins hover:scale-110 ' href="">
-      <h1 className='text-black font-poppins text-2xl'>ARDUINO UNO PROJECT</h1>
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black font-poppins  ' href="">
+      <h1 className='text-black font-poppins pb-10 text-3xl'>ARDUINO UNO PROJECT</h1>
               <div className=' text-zinc-500 font-serif text-xl w-[700px]'> 
               <h1 className='font-poppins py-10'>Smart Power Cut Notifier using Arduino Uno</h1>
               <h1 className=' py-10'>Developed a Smart Power Cut Notifier using Arduino Uno, addressing the need for efficient power outage detection and notification.
@@ -45,10 +46,10 @@ Demonstrated problem-solving skills and technical expertise in hardware programm
               </div>
               </button>
 
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black font-poppins hover:scale-110 ' href="">
-      <h1 className='text-black font-poppins text-2xl'>HER-INSTINCTS</h1>
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black font-poppins  ' href="">
+      <h1 className='text-black font-poppins pb-10 text-3xl'>HER-INSTINCTS</h1>
               <div className=' text-zinc-500 font-serif text-xl w-[700px]'> 
-              <h1 className='font-poppins py-10'> Comprehensive website catering to women's care using HTML, Tailwind CSS, and Python.
+              <h1 className='font-poppins py-20'> Comprehensive website catering to women's care using HTML, Tailwind CSS, and Python.
 </h1>
               <h1 className=' py-10'>Implemented HTML to structure the website's content, ensuring a clean and organized layout.
 Utilized Tailwind CSS to create a visually appealing and responsive design, enhancing user experience across different devices.</h1>
@@ -59,15 +60,18 @@ Incorporated various features, including health tips, beauty routines, lifestyle
               </div>
               </button>
 
-              
+              </div>  
     </div>
     </div>
 
-    <div className='flex md:hidden'>
+    <div className='flex md:hidden '>
     <div className='absolute  top-[1800px]  w-full  text-left  font-poppins  justify-center py-20 '>
-      <h1 className='text-slate-950 font-poppins text-3xl '>Projects</h1>
-      <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black text-left font-poppins  ' href="">
-      <h1 className='text-black font-poppins text-2xl'>WELLNESS- INSTINCTS</h1>
+      <h1 className='text-slate-950 font-poppins text-3xl py-5'>Projects</h1>
+
+      <div className='flex flex-row overflow-y-auto space-x-10'>
+
+      <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black text-left font-poppins  ' href="">
+      <h1 className='text-black font-poppins  text-2xl'>WELLNESS- INSTINCTS</h1>
               <div className=' text-zinc-500 font-serif text-xl w-[400px]'> 
               <h1 className='mt-10 py-10'>mental health care website with chatbot and minigames PARTICIPATED IN NATIONAL LEVEL HACKATHON @MUMBAI  </h1>
               <h1 className='font-poppins py-10'>Healthcare Web App - 36-Hour Hackathon</h1>
@@ -78,8 +82,8 @@ Leveraged Flask, a Python-based web framework, for the back-end development, ena
  </h1>
               </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black text-left font-poppins  ' href="">
-      <h1 className='text-black font-poppins text-2xl'>HOME-SERVICES</h1>
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 pb-20 hover:animate-pulse text-black text-left font-poppins  ' href="">
+      <h1 className='text-black font-poppins pb-20 text-2xl'>HOME-SERVICES</h1>
               <div className=' text-zinc-500 font-serif text-xl w-[400px]'> 
               <h1 className='font-poppins py-10'>WEB APP  BUILT USING PHP,MYSQL,CSS,XAMPP (mini project)
 </h1>
@@ -92,8 +96,8 @@ Accessed local development environment using XAMPP for seamless testing and debu
  </h1>
               </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black text-left font-poppins  ' href="">
-      <h1 className='text-black font-poppins text-2xl'>ARDUINO UNO PROJECT</h1>
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 pb-20 hover:animate-pulse text-black text-left font-poppins  ' href="">
+      <h1 className='text-black font-poppins pt-10 text-2xl'>ARDUINO UNO PROJECT</h1>
               <div className=' text-zinc-500 font-serif text-xl w-[400px]'> 
               <h1 className='font-poppins py-10'>Smart Power Cut Notifier using Arduino Uno</h1>
               <h1 className=' py-10'>Developed a Smart Power Cut Notifier using Arduino Uno, addressing the need for efficient power outage detection and notification.
@@ -105,8 +109,8 @@ Demonstrated problem-solving skills and technical expertise in hardware programm
               </div>
               </button>
 
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse text-black text-left font-poppins  ' href="">
-      <h1 className='text-black font-poppins text-2xl'>HER-INSTINCTS</h1>
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 pb-20 hover:animate-pulse text-black text-left font-poppins  ' href="">
+      <h1 className='text-black font-poppins pb-20 text-2xl'>HER-INSTINCTS</h1>
               <div className=' text-zinc-500 font-serif text-xl w-[400px]'> 
               <h1 className='font-poppins py-10'> Comprehensive website catering to women's care using HTML, Tailwind CSS, and Python.
 </h1>
@@ -118,7 +122,7 @@ Incorporated various features, including health tips, beauty routines, lifestyle
  </h1>
               </div>
               </button>
-
+              </div>
               
     </div>
     </div>

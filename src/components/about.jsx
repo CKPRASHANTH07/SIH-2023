@@ -13,8 +13,8 @@ const About = () => {
           </div>
           <div className='py-20'>
           <div className='text-slate-950 font-poppins text-3xl '>Education
-          <div className='pt-10 text-2xl px-5 py-5 flex flex-col  justify-center '>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-6 py-10 hover:animate-pulse hover:scale-110' href="">
+          <div className='pt-10 text-2xl px-5 py-5 flex flex-col space-y-5 justify-center '>
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-6 py-10 hover:animate-pulse hover:scale-110' href="">
               College
               <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Sri Eshwar College  </h1>
@@ -24,7 +24,7 @@ const About = () => {
               </div>
               </button>
               
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
               12th
               <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Nachiar Vidhyalayam Matric </h1>
@@ -33,7 +33,7 @@ const About = () => {
               <h1 >83% </h1>
               </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-9 py-10 hover:animate-pulse hover:scale-110' href="">
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-9 py-10 hover:animate-pulse hover:scale-110' href="">
               10th
               <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Bharathi Vidhya Mandhir  </h1>
@@ -59,9 +59,9 @@ const About = () => {
           <div className='py-20 '>
           <div className='text-slate-950  font-poppins text-7xl '>
             Education
-            <div className='pt-15 text-xl justify-center '>
+            <div className='pt-15 text-xl justify-center space-y-10 '>
               <div className='space-x-20 space-y-10'>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
               College
               <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Sri Eshwar College  </h1>
@@ -70,7 +70,7 @@ const About = () => {
               <h1 >CGPA:7.1 </h1>
               </div>
               </button>
-              <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
+              <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110' href="">
               12th
               <div className='text-zinc-500 font-serif text-xl'>
               <h1 className='mt-10'>Nachiar Vidhyalayam Matric </h1>
@@ -81,7 +81,7 @@ const About = () => {
               </button>
               </div>
                      
-                     <button className='shadow-2xl shadow-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110 ' href="">
+                     <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-10 hover:animate-pulse hover:scale-110 ' href="">
               10th
               <div className=' text-zinc-500 font-serif text-xl'> 
               <h1 className='mt-10'>Bharathi Vidhya Mandhir  </h1>
