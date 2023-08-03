@@ -1,6 +1,15 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import Aos from "aos";
+import 'aos/dist/aos.css'
+
 
 const About = () => {
+
+useEffect(()=>{
+ Aos.init();
+},[]);
+
+
   return (
     <div className='relative z-0'>
        <div className=' md:hidden '>
@@ -12,7 +21,7 @@ const About = () => {
           <h1 className='text-zinc-500 font-serif  text-xl'> I have developed a strong aptitude for thriving in high-pressure environments.</h1>
           </div>
           <div className='py-20'>
-          <div className='text-slate-950 font-poppins text-3xl '>Education
+          <div className='text-slate-950 font-poppins text-3xl ' data-aos="fade-up" data-aos-duration="5000" data-aos-offset="300" data-aos-easing="ease-in-sine">Education
           <div className='pt-10 text-2xl px-5 py-5 flex flex-col space-y-5 justify-center '>
               <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-6 py-10 hover:animate-pulse hover:scale-110' href="">
               College
@@ -57,7 +66,7 @@ const About = () => {
           <h1 className='text-zinc-500 font-serif  text-xl'> I have developed a strong aptitude for thriving in high-pressure environments.</h1>
           </div>
           <div className='py-20 '>
-          <div className='text-slate-950  font-poppins text-7xl '>
+          <div className='text-slate-950  font-poppins text-7xl '  data-aos="fade-up" data-aos-duration="5000" data-aos-offset="200" data-aos-easing="ease-in-sine">
             Education
             <div className='pt-15 text-xl justify-center space-y-10 '>
               <div className='space-x-20 space-y-10'>
