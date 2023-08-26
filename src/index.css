@@ -3,3 +3,13 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@layer components
+{
+    .nav-btn {
+        @apply hover:text-red-400 font-poppins text-lg;
+       
+    }
+    .nav-span {
+       @apply absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100;
+    }
+}
