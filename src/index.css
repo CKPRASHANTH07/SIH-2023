@@ -12,4 +12,7 @@
     .nav-span {
        @apply absolute -bottom-1 left-0 w-full h-1 bg-red-400 transform origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100;
     }
+    .proj-css1{
+    @apply shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black font-poppins
+}
 }

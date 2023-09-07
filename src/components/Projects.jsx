@@ -8,19 +8,19 @@ const Projects = () => {
           <h1 className='text-7xl font-bold py-5'>Projects</h1>
           <div className='flex flex-row overflow-y-auto space-x-10 py-10'>
             {/* Project 1 */}
-            <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black font-poppins'>
+            <button className='proj-css1'>
               {/* Project content */}
             </button>
             {/* Project 2 */}
-            <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black font-poppins'>
+            <button className='proj-css1'>
               {/* Project content */}
             </button>
             {/* Project 3 */}
-            <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black font-poppins'>
+            <button className='proj-css1'>
               {/* Project content */}
             </button>
             {/* Project 4 */}
-            <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black font-poppins'>
+            <button className='proj-css1'>
               {/* Project content */}
             </button>
           </div>
@@ -32,19 +32,19 @@ const Projects = () => {
           <h1 className='text-slate-950 font-poppins text-3xl py-5'>Projects</h1>
           <div className='flex flex-row overflow-y-auto space-x-10'>
             {/* Project 1 */}
-            <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black text-left font-poppins'>
+            <button className='proj-css1 text-left'>
               {/* Project content */}
             </button>
             {/* Project 2 */}
-            <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black text-left font-poppins'>
+            <button className='proj-css1 text-left'>
               {/* Project content */}
             </button>
             {/* Project 3 */}
-            <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black text-left font-poppins'>
+            <button className='proj-css1 text-left'>
               {/* Project content */}
             </button>
             {/* Project 4 */}
-            <button className='shadow-2xl shadow-slate-400 bg-slate-200 rounded-xl px-5 py-8 hover:animate-pulse text-black text-left font-poppins'>
+            <button className='proj-css1 text-left'>
               {/* Project content */}
             </button>
           </div>
