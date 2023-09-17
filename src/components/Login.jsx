@@ -1,57 +1,89 @@
-import React from 'react'
+import React from "react";
 
-const Login = () => {
+export const LoginPc = () => {
   return (
-    <div>
-
-<div className="w-96 h-96 relative bg-white">
-  <div className="w-80 h-16 left-[35px] top-[215px] absolute">
-    <input className="w-80 h-12 left-0 top-[12.41px] absolute bg-white rounded-lg border text-2xl text-center border-neutral-200" />
-    <div className="w-28 h-6 left-[19px] top-0 absolute">
-      <div className="w-28 h-6 left-0 top-0 absolute bg-white" />
-      <div className="w-24 h-6 left-[3.42px] top-0 absolute text-center text-black text-base font-semibold">User name</div>
+    <div className="bg-white flex flex-row justify-center w-full">
+      <div className="bg-white w-[1920px] h-[1080px] absolute">
+        <div className="absolute w-[920px] h-[87px] top-[334px] left-[501px]">
+          <div className="relative w-[922px] h-[88px] -left-px">
+            <input className="absolute w-[922px] h-[77px] top-[11px] left-0 p-10 text-2xl bg-white rounded-[10px] border-2 border-solid border-[#e0e0e0]" />
+            <div className="absolute w-[138px] h-[17px] top-0 left-[63px]">
+              <div className="relative w-[136px] h-[17px] bg-white">
+                <div className="absolute w-[131px] top-0 left-[4px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-black text-[20px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  User name
+                </div>
+              </div>
+            </div>
+            <img className="absolute w-[83px] h-[50px] top-[25px] left-[832px]" alt="User" src="user.png" />
+          </div>
+        </div>
+        <div className="absolute w-[920px] h-[86px] top-[439px] left-[501px]">
+          <div className="relative h-[86px]">
+            <input className="absolute w-[920px] h-[75px] top-[11px] left-0  bg-white rounded-[10px] text-2xl p-10 border-2 border-solid border-[#e0e0e0]" />
+                <img className="absolute w-[83px] h-[50px] top-[10px] left-[830px]" alt="Password" src="password.png" />
+              
+            <div className="absolute w-[123px] h-[17px] top-0 left-[67px]">
+              <div className="relative w-[121px] h-[17px]">
+                <div className="absolute w-[121px] h-[13px] top-0 left-0 bg-white" />
+                <div className="absolute w-[108px] top-0 left-[7px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-black text-[20px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Password
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute w-[157px] h-[91px] top-[163px] left-[846px]">
+          <div className="absolute w-[155px] top-0 left-0 [font-family:'Poppins-Bold',Helvetica] font-bold text-[#00203f] text-[50px] tracking-[0] leading-[normal]">
+            LOGIN
+          </div>
+          <div className="absolute w-[126px] h-[5px] top-[86px] left-[14px] bg-[#8ceac1] rounded-[2px]" />
+        </div>
+        <div className="absolute w-[293px] h-[41px] top-[669px] left-[1153px]">
+          <div className="h-[41px]">
+            <div className="relative w-[295px] h-[41px]">
+              <button className="absolute w-[293px] top-0 left-0 [font-family:'Poppins-Bold',Helvetica] font-bold text-[#cac5c5] text-[30px] tracking-[0] leading-[normal]">
+                Forgot&nbsp;&nbsp;Password
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="absolute w-[295px] h-[41px] top-[669px] left-[482px]">
+          <button className="absolute w-[239px] top-0 left-[54px] [font-family:'Poppins-Bold',Helvetica] font-bold text-[#cac5c5] text-[30px] tracking-[0] leading-[normal]">
+            Remeber login
+          </button>
+          <div className="absolute w-[30px] h-[30px] top-[6px] left-0 rounded-[5px] border-2 border-solid border-black" />
+        </div>
+        <div className="absolute w-[340px] h-[100px] top-[810px] left-[1106px]">
+          <div className="h-[100px]">
+            <div className="relative w-[342px] h-[100px]">
+              <div className="absolute w-[342px] h-[100px] top-0 left-0">
+                <div className="relative w-[340px] h-[100px] bg-[#00203f] rounded-[10px]">
+                  <div className="absolute w-[155px] top-[15px] left-[60px] [font-family:'Poppins-Bold',Helvetica] font-bold text-white text-[40px] tracking-[0] leading-[normal]">
+                    Create
+                  </div>
+                </div>
+              </div>
+              <img
+                className="absolute w-[67px] h-[85px] top-0 left-[233px]"
+                alt="Add user male"
+                src="add-user-male.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="absolute w-[340px] h-[100px] top-[810px] left-[474px]">
+          <div className="relative w-[342px] h-[100px]">
+            <div className="absolute w-[342px] h-[100px] top-0 left-0">
+              <div className="relative w-[340px] h-[100px] bg-[#8ceac1] rounded-[10px]">
+                <div className="absolute w-[129px] top-[16px] left-[58px] [font-family:'Poppins-Bold',Helvetica] font-bold text-[#00203f] text-[40px] tracking-[0] leading-[normal]">
+                  Login
+                </div>
+              </div>
+            </div>
+            <img className="absolute w-[67px] h-[85px] top-[8px] left-[244px]" alt="Login" src="login.png" />
+          </div>
+        </div>
+      </div>
     </div>
-    <img className="w-9 h-8 left-[278px] top-[17px] absolute" src="https://via.placeholder.com/36x33" />
-  </div>
-  <div className="w-80 h-16 left-[35px] top-[320px] absolute">
-    <div className="w-80 h-16 left-0 top-0 absolute">
-      <input className="w-80 h-12 left-0 top-[12.59px] absolute bg-white rounded-lg border text-2xl text-center border-neutral-200" />
-      <div className="w-16 h-16 left-[262.60px] top-0 absolute bg-neutral-200 rounded-full border border-neutral-200" />
-      <img className="w-9 h-8 left-[277.69px] top-[16.23px] absolute" src="https://via.placeholder.com/36x34" />
-    </div>
-    <div className="w-24 h-5 left-[19.12px] top-[3.04px] absolute">
-      <div className="w-24 h-3.5 left-0 top-0 absolute bg-white" />
-      <div className="w-20 h-5 left-[5.42px] top-[0.25px] absolute text-center text-black text-base font-semibold">Password</div>
-    </div>
-  </div>
-  <div className="w-48 h-12 left-[100px] top-[504px] absolute">
-    <button className="w-48 h-12 left-0 top-0 absolute">
-      <div className="w-48 h-12 left-0 top-0 absolute bg-green-300 rounded-lg" />
-      <div className="w-20 h-9 left-[33.07px] top-[8.16px] absolute text-white text-2xl font-bold">Login</div>
-    </button>
-    <img className="w-9 h-11 left-[139px] top-[4px] absolute" src="https://via.placeholder.com/38x44" />
-  </div>
-  <div className="w-96 h-14 left-[-12px] top-[126px] absolute">
-    <div className="w-96 h-14 left-0 top-0 absolute text-center text-sky-950 text-3xl font-bold">LOGIN</div>
-    <div className="w-16 h-1 left-[170px] top-[45px] absolute bg-green-300 rounded-sm" />
-  </div>
-  <button className="w-80 h-6 left-[39px] top-[429px] absolute">
-    <div className="w-40 h-6 left-[85.02px] top-0 absolute text-stone-300 text-lg font-bold">Forgot  Password</div>
-  </button>
-  <div className="w-48 h-12 left-[100px] top-[641px] absolute">
-    <button className="w-48 h-12 left-0 top-0 absolute">
-      <div className="w-48 h-12 left-0 top-0 absolute bg-sky-950 rounded-lg" />
-      <div className="w-24 h-8 left-[34px] top-[6.12px] absolute text-white text-2xl font-bold">Create</div>
-    </button>
-    <img className="w-9 h-11 left-[133px] top-0 absolute" src="https://via.placeholder.com/38x44" />
-  </div>
-  <div className="w-48 left-[105px] top-[586px] absolute">
-    <div className="w-40 h-6 left-[36px] top-0 absolute text-fuchsia-700 text-lg font-bold">Remeber login</div>
-    <button className="w-5 h-5 left-0 top-[4px] absolute rounded border border-black" />
-  </div>
-</div>
-    </div>
-  )
-}
-
-export default Login
+  );
+};
