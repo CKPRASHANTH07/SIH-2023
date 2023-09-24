@@ -1,5 +1,8 @@
 
 import React from 'react'
+import { Link, Route, Switch } from 'react-router-dom';
+import { HomePc } from './HomePc'
+import { Map } from './Map';
 
 const Navbar = () => {
   return (
@@ -15,14 +18,18 @@ const Navbar = () => {
               Alerts
             </div>
           </button>
+       <Link to="/map">
           <button className="w-[93px] left-[1065px] absolute h-[60px] top-[42px]">
             <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#8ceac1] text-[40px] tracking-[0] leading-[normal]">
               Map
             </div>
-          </button>
+          </button></Link>
+        
+      
           <button className="w-[124px] left-[1545px] absolute h-[60px] top-[42px]">
             <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#8ceac1] text-[40px] tracking-[0] leading-[normal]">
               Chats
+
             </div>
           </button>
           <button className="w-[167px] left-[1728px] absolute h-[60px] top-[42px]">
